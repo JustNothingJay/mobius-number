@@ -1,0 +1,51 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "mobius-number"
+version = "0.1.0"
+description = "Complementary residue arithmetic — 0.1 + 0.2 = 0.3, exactly."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+authors = [
+    { name = "Jay Carpenter" },
+]
+keywords = [
+    "floating-point",
+    "arithmetic",
+    "precision",
+    "IEEE-754",
+    "exact",
+    "rational",
+    "mobius",
+    "complementary-residue",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Financial and Insurance Industry",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering :: Mathematics",
+    "Topic :: Software Development :: Libraries",
+    "Typing :: Typed",
+]
+
+[project.urls]
+Homepage = "https://github.com/JustNothingJay/mobius-number"
+Repository = "https://github.com/JustNothingJay/mobius-number"
+Issues = "https://github.com/JustNothingJay/mobius-number/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/mobius_number"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
