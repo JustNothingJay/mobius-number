@@ -1,0 +1,33 @@
+{
+  "title": "mobius-number: Complementary residue arithmetic — 0.1 + 0.2 = 0.3, exactly",
+  "description": "A dual-strand number type that carries both IEEE 754 float64 (fast, lossy) and exact rational (Fraction) representations simultaneously. On collapse, the rational strand governs. Eliminates floating-point rounding errors that have existed since IEEE 754 was published in 1985.",
+  "upload_type": "software",
+  "creators": [
+    {
+      "name": "Carpenter, Jay",
+      "orcid": "0009-0000-0448-7997"
+    }
+  ],
+  "access_right": "open",
+  "license": "MIT",
+  "keywords": [
+    "floating-point",
+    "IEEE 754",
+    "rounding error",
+    "exact arithmetic",
+    "complementary residue",
+    "strand-native",
+    "Möbius family"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.19157585",
+      "relation": "isPartOf",
+      "resource_type": "software",
+      "scheme": "doi"
+    }
+  ],
+  "version": "0.1.0",
+  "language": "eng",
+  "notes": "Part of the Möbius family — strand-native types that eliminate computational redundancy caused by representational imprecision."
+}
