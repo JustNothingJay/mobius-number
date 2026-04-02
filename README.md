@@ -171,6 +171,14 @@ A MöbiusNumber is a number with one identity. The binary approximation and the 
 
 Jay Carpenter — [SECS Research](https://github.com/JustNothingJay/SECS_Research)
 
+## See Also
+
+- [mobius-constant](https://github.com/JustNothingJay/mobius-constant) — Exact irrational constants (`sqrt(2)**2 == 2`, by construction)
+- [mobius-integer](https://github.com/JustNothingJay/mobius-integer) — Dual-strand integer: machine i64 + exact BigInt (Rust)
+- [mobius-units](https://github.com/JustNothingJay/mobius-units) — Fundamental constants from the eigenvalue tower — one measurement derives them all
+
+Same pattern. Same anatomy. Same fix. Different domain.
+
 ## License
 
 MIT
